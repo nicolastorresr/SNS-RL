@@ -1,0 +1,60 @@
+{
+  "timestamp": "2025-01-09T12:00:00",
+  "global_metrics": {
+    "network_density": 0.15,
+    "average_clustering_coefficient": 0.42,
+    "average_path_length": 3.8,
+    "modularity": 0.65,
+    "number_of_communities": 5
+  },
+  "node_metrics": {
+    "centrality": {
+      "degree": {
+        "mean": 12.5,
+        "std": 3.2,
+        "max": 45,
+        "min": 1
+      },
+      "betweenness": {
+        "mean": 0.12,
+        "std": 0.08,
+        "max": 0.45,
+        "min": 0.0
+      },
+      "eigenvector": {
+        "mean": 0.28,
+        "std": 0.15,
+        "max": 0.85,
+        "min": 0.01
+      }
+    }
+  },
+  "content_metrics": {
+    "message_propagation": {
+      "average_reach": 15.3,
+      "viral_coefficient": 1.8,
+      "average_engagement_rate": 0.25
+    },
+    "topic_distribution": {
+      "technology": 0.35,
+      "sports": 0.20,
+      "entertainment": 0.25,
+      "politics": 0.10,
+      "science": 0.10
+    }
+  },
+  "agent_performance": {
+    "average_reward": 0.65,
+    "reward_distribution": {
+      "mean": 0.65,
+      "std": 0.18,
+      "max": 1.2,
+      "min": 0.1
+    },
+    "learning_metrics": {
+      "average_q_value": 12.5,
+      "exploration_rate": 0.15,
+      "loss": 0.08
+    }
+  }
+}
