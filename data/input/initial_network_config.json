@@ -1,0 +1,39 @@
+{
+  "network_parameters": {
+    "num_agents": 100,
+    "initial_connections_per_agent": 5,
+    "connection_probability": 0.1,
+    "max_connections": 50
+  },
+  "agent_parameters": {
+    "personality_traits": {
+      "openness_range": [0.0, 1.0],
+      "conscientiousness_range": [0.0, 1.0],
+      "extraversion_range": [0.0, 1.0],
+      "agreeableness_range": [0.0, 1.0],
+      "neuroticism_range": [0.0, 1.0]
+    },
+    "initial_influence_score": 1.0,
+    "content_preferences": {
+      "topics": ["technology", "sports", "entertainment", "politics", "science"],
+      "content_types": ["text", "image", "video", "link"],
+      "topic_weights": {
+        "technology": 0.3,
+        "sports": 0.2,
+        "entertainment": 0.2,
+        "politics": 0.15,
+        "science": 0.15
+      }
+    }
+  },
+  "environment_parameters": {
+    "reward_weights": {
+      "influence_gain": 0.4,
+      "content_engagement": 0.3,
+      "network_diversity": 0.3
+    },
+    "time_decay_factor": 0.95,
+    "max_message_age": 48,
+    "interaction_threshold": 0.2
+  }
+}
