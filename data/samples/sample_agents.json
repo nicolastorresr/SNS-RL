@@ -1,0 +1,60 @@
+{
+  "agents": [
+    {
+      "agent_id": "agent_001",
+      "personality_traits": {
+        "openness": 0.75,
+        "conscientiousness": 0.62,
+        "extraversion": 0.88,
+        "agreeableness": 0.70,
+        "neuroticism": 0.45
+      },
+      "influence_score": 1.2,
+      "content_preferences": {
+        "technology": 0.8,
+        "sports": 0.3,
+        "entertainment": 0.6,
+        "politics": 0.4,
+        "science": 0.7
+      },
+      "connections": ["agent_005", "agent_012", "agent_023"],
+      "message_history": [
+        {
+          "message_id": "msg_001",
+          "timestamp": "2025-01-09T10:30:00",
+          "content_type": "text",
+          "topic": "technology",
+          "engagement_score": 0.85
+        }
+      ]
+    },
+    {
+      "agent_id": "agent_002",
+      "personality_traits": {
+        "openness": 0.55,
+        "conscientiousness": 0.82,
+        "extraversion": 0.45,
+        "agreeableness": 0.90,
+        "neuroticism": 0.30
+      },
+      "influence_score": 1.5,
+      "content_preferences": {
+        "technology": 0.4,
+        "sports": 0.9,
+        "entertainment": 0.7,
+        "politics": 0.3,
+        "science": 0.5
+      },
+      "connections": ["agent_008", "agent_015", "agent_021"],
+      "message_history": [
+        {
+          "message_id": "msg_002",
+          "timestamp": "2025-01-09T11:15:00",
+          "content_type": "image",
+          "topic": "sports",
+          "engagement_score": 0.92
+        }
+      ]
+    }
+  ]
+}
