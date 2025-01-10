@@ -1,7 +1,0 @@
-numpy
-networkx
-matplotlib
-tensorflow
-scipy
-jupyter
-pytest
